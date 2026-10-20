@@ -1,0 +1,92 @@
+{
+  "schema": "TAIRID.IL.WEEKLY_CORRECTION_CONTROL.v0.1",
+  "period_utc": "2026-10-13 through 2026-10-20",
+  "built": "2026-10-20",
+  "status": "RECENT_CHATS_CONTEXT_RECONSTRUCTION_CROSS_CHECKED_WITH_REPOSITORY_HANDOFFS_NOT_VERBATIM_EXHAUSTIVE_CHAT_TRANSCRIPT",
+  "important_origin_note": "Past user corrections were recovered from available conversation history and contextual search, and cross-checked to dated REU handoff documents when available. This does not claim line-by-line reading of every chat or complete recovery of every private attachment.",
+  "primary_source_repo": "TAIRID/Reverse-Engineering-Unknown",
+  "events": [
+    {
+      "date": "2026-10-13",
+      "topic": "Structural math translation",
+      "user_requirement": "Connect established math across domains using original native definitions and measurable outputs; allow corrections to provisional TAIRID equation interpretations after source review; do not discard established science.",
+      "original_record": "research/continuity/TAIRID-TRANSLATION-FIRST-INTENT-LOCK-2026-10-15.md",
+      "implementation_risk": "Forcing O=T^aI^b into every field, assuming proof from formal similarity",
+      "protection": "Exact author version + native unit and source type before composition"
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "Three gate physical simulations and limits",
+      "user_requirement": "Preserve bandwidth, orientation, phase and energy as distinct roles when physically modeled; exact gate source meaning and null physical controls retained.",
+      "original_record": "research/integration/foundation-r006-review-2026-10-14-source-math-physical-claims-decision.md",
+      "implementation_risk": "Mistaking a policy/eligibility gate for altered microscopic physics",
+      "protection": "Keep action admissibility separate from physical generator, measurement operator and inferred causal force"
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "Translation-first origin and full research audit",
+      "user_requirement": "Reuse known scientific mathematics and published measurements; inspect original TAIRID corpus; do not restart as isolated toy experiments or substitute chronology for physical processes.",
+      "original_record": "research/continuity/THREAD-2026-10-15-FULL-AUDIT-AND-UNIVERSE-TRANSLATION-HANDOFF.md",
+      "implementation_risk": "Assistant invents a new generic taxonomy and misses earlier implementations",
+      "protection": "Canonical source pointers, original hypotheses and negative experiments first"
+    },
+    {
+      "date": "2026-10-16",
+      "topic": "Independent review",
+      "user_requirement": "Source-based independent testing and explicit falsification; Gemini read-only, no unverified computational reproduction; older Gemini review was broader but later budget restriction supersedes it.",
+      "original_record": "GEMINI.md",
+      "implementation_risk": "Treating second model agreement as physical validation or running large token-heavy general reviews",
+      "protection": "Apply most recent 2026-10-20 instruction: Gemini ONLY targeted math/programming cross-check"
+    },
+    {
+      "date": "2026-10-17",
+      "topic": "Repository accuracy and continuity",
+      "user_requirement": "Objectively verify source/code and preserve unresolved conditions, including the frozen 114 historical equations and experiment-identity crosswalks.",
+      "original_record": "research/continuity/TAIRID-FROZEN-114-EQUATIONS-DYNAMIC-BOUNDARY-ROOT-CAUSE-IMPACT-REVIEW-PREFLIGHT-2026-10-17.md",
+      "implementation_risk": "Passing a CI workflow that skips important science tests, or claiming a recovered equation ledger without row review",
+      "protection": "Explicit executable test coverage + failure list; row-level ledger source check remains BLOCKED"
+    },
+    {
+      "date": "2026-10-18",
+      "topic": "Whole-repo scientific lanes and correct data attribution",
+      "user_requirement": "Review parallel work, collisions and source-derived discrepancies; do not relabel TNG100/TNG300 or previous results, preserve active open universe map gates.",
+      "original_record": "research/continuity/TAIRID-2026-10-11-18-CROSS-THREAD-RESEARCH-CONTINUITY-AUDIT.md",
+      "implementation_risk": "Collapse distinct experiments into single positive story; output/model source and measured evidence confused",
+      "protection": "Source-specific immutable experiment identity, model regime, observations, controls and original negative outcomes"
+    },
+    {
+      "date": "2026-10-19",
+      "topic": "Library iterations 01-05 and many later investigations",
+      "user_requirement": "Preserve existing pilots, inspect original 139-source corpus and terminology; definitions before numerical equations, corrections allowed with provenance, avoid mailing researchers.",
+      "original_record": "research/continuity/active_research_handoff.json",
+      "implementation_risk": "Discard prior 20-node viewer/23-edge router/72,689-block index; propose unsupported meanings for 11 of 28 senses",
+      "protection": "Register all earlier work and open semantic reconciliation, source evidence over assistant restatement; no external unsolicited email"
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "Library intended contents and navigation",
+      "user_requirement": "Source-grounded education, science, art, history, number theory, music, local schooling/politics/object history; history as source-context not biography; Gemini math/code only; infinite zoom NONVISUAL relation traversal; algebraic nesting and conceptual molecules preserve identity.",
+      "original_record": "research/continuity/TAIRID-INFINITE-LIBRARY-BOOK-DERIVED-STRUCTURAL-NAVIGATION-CROSSWALK-2026-10-20.md",
+      "implementation_risk": "Build a visual demo instead of semantic graph, impose universal processing diagnosis, overclaim 14 navigation tests as complete scientific core",
+      "protection": "Multi-scale text queries, source IDs and typed-bond reasoning, resource limits, no private history copying, holdout speed/correctness benchmark"
+    }
+  ],
+  "nonnegotiable_corrections": [
+    "AI in user's original inverse problem means ACCURATE INFORMATION, not artificial intelligence; ACI means ACCESS TO ACCURATE INFORMATION.",
+    "Definitions and their native measurable referents control mathematical implementation; don't invent authoritative universal equations to fill gaps.",
+    "The author may revise a proposed mathematical expression after source reconciliation; the historical frozen ledger remains preserved as a historical baseline.",
+    "Scientific counterexamples, negative results and unknowns are first-class evidence.",
+    "An infinite zoom image was a structural example, not a requirement for visual interface.",
+    "Personal nostalgia, place, schooling and historical environment were research index anchors, not consent to publish biography.",
+    "Open private documents only in authorized context; no public mirror.",
+    "Gemini only math/code occasional independent verification due quota.",
+    "No emailing researchers; use public records/code/datasets.",
+    "ChatGPT connector is a read/retrieve interface with model knowledge plus specific tools, not a permanently running autonomous database."
+  ],
+  "unverified": [
+    "Some recent discussions may not be recoverable in full from conversation summaries; check exact prior user text if semantics are disputed.",
+    "All 139 original documents have not been line-by-line semantically verified.",
+    "Legacy original 114 equation rows remain to reconcile source-exactly with amendment rules.",
+    "Benchmark speed of structural graph vs conventional search remains untested."
+  ]
+}
