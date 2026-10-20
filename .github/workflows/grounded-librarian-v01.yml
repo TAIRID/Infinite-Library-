@@ -1,0 +1,38 @@
+name: Infinite Library - Pinned Original Source to Answer
+
+on:
+  push:
+    paths:
+      - "core/**"
+      - "tests/**"
+      - ".github/workflows/grounded-librarian-v01.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-grounded-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the actual Infinite Library interface
+        uses: actions/checkout@v4
+      - name: Check out original research source at frozen read-only commit
+        uses: actions/checkout@v4
+        with:
+          repository: TAIRID/Reverse-Engineering-Unknown
+          ref: e535ab3dddeb98460a7aff5f5d70ce7ae5c5b093
+          path: original-reu
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Execute actual original-source anchored unit and tamper tests
+        run: python -m unittest discover -s tests -p 'test_library_query_v01.py' -v
+      - name: Run complete question to original source to explanatory answer
+        run: python -m core.library_query_v01 --question "Can SDR act as a universal truth detector?"
+      - name: Run original mathematical meaning inquiry
+        run: python -m core.library_query_v01 --question "What do T^a and the exponents mean in the observation equation?"
+      - name: Confirm unscreened general requests still abstain
+        run: python -m core.library_query_v01 --question "How do black holes produce political borders?"
