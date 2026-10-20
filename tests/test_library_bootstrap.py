@@ -82,8 +82,7 @@ class LibraryBootstrapTests(unittest.TestCase):
 
     def test_no_private_docx_contents_mirrored(self):
         src = load("source-registry.json")
-        self.assertIn("NOT", src["privacy"] if "NOT" in src["privacy"] else
-                      "NOT privately verified")
+        self.assertIn("NOT import private timeline", src["privacy"])
         self.assertTrue(all(set(d).issuperset(
             {"id","source_original_path","source_original_sha256","source_text_parts"}
         ) for d in src["source_documents"]))
