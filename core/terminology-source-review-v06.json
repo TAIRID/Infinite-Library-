@@ -1,0 +1,195 @@
+{
+  "schema": "TAIRID.IL.TERM_SENSE_SOURCE_REVIEW.v0.6",
+  "date": "2026-10-20",
+  "origin": "SOURCE_PASSAGES_FROM_PUBLIC_REU_ORIGINALS_PLUS_OCT19_TERMINOLOGY_AUDIT",
+  "status": "PRELIMINARY_SOURCE_BOUNDED_NOT_AUTHOR_SIGNED_OR_FULL_CORPUS_SEMANTIC_ADJUDICATION",
+  "older_review": {
+    "source": "research/library_pilot/v05/README.md",
+    "original_private_senses": 28,
+    "direct": 10,
+    "partial": 7,
+    "unsupported": 11,
+    "approved_translations": 0,
+    "privacy": "Exact private original document passages and 28-row ledger not moved to public repo."
+  },
+  "v15": {
+    "source": "research/library_pilot/v15/domain_typed_definitions.json",
+    "provisional_domain_senses": 26,
+    "approved_for_replacing_author_equations": false
+  },
+  "data": [
+    {
+      "term": "T",
+      "senses": [
+        "recursive pacing proposed by author",
+        "physical proper time",
+        "clock duration",
+        "model update index"
+      ],
+      "source": "SRC-136",
+      "locator": "text/SRC-136/part-001.md#L57",
+      "support": "DIRECT_AUTHOR_WORDING_FOR_RECURSIVE_PACING_ONLY",
+      "risk": "No equation can substitute one time sense for another by letter identity.",
+      "automatic_conversion": "BLOCK"
+    },
+    {
+      "term": "I",
+      "senses": [
+        "author structural constraint",
+        "Shannon bits",
+        "physical field/curvature proposal",
+        "data record"
+      ],
+      "source": "SRC-136",
+      "locator": "text/SRC-136/part-001.md#L120",
+      "support": "DIRECT_AUTHOR_WORDING_NOT_SHANNON",
+      "risk": "I in author equation is explicitly distinguished from bits; cannot equate with H(X).",
+      "automatic_conversion": "BLOCK"
+    },
+    {
+      "term": "O",
+      "senses": [
+        "proposed sealed/projectable form",
+        "measurement operator",
+        "scientific instrument observation",
+        "human perspective"
+      ],
+      "source": "SRC-136",
+      "locator": "text/SRC-136/part-001.md#L21",
+      "support": "DIRECT_AUTHOR_WORDING_NOT_MEASUREMENT_OPERATOR",
+      "risk": "No single universal observable or dimension, so cannot use numerically as automatic output.",
+      "automatic_conversion": "BLOCK"
+    },
+    {
+      "term": "a,b",
+      "senses": [
+        "fold/recursive depth",
+        "ordinary numeric exponents in other passages"
+      ],
+      "source": "SRC-136",
+      "locator": "text/SRC-136/part-001.md#L21",
+      "support": "DIRECT_HISTORICAL_FORMULATION_BUT_INTERNAL_MATHEMATICAL_AMBIGUITY",
+      "risk": "Original passage says not ordinary power; another passage algebraically uses powers. Author-level mathematical reconciliation pending.",
+      "automatic_conversion": "BLOCK"
+    },
+    {
+      "term": "SDR",
+      "senses": [
+        "original standard-deviation-from-reality score",
+        "weighted root mean square deviation",
+        "proposed epistemic drift index"
+      ],
+      "source": "SRC-107",
+      "locator": "text/SRC-107/part-001.md#L299-L305",
+      "support": "ORIGINAL_FORMULA_PRESENT; COMPUTABLE_ONLY_FOR_DECLARED_RESIDUALS",
+      "risk": "w_i=1/sigma_i^2 needs calibrated sigma per comparable unit; universal truth and epistemic coherence not demonstrated.",
+      "automatic_conversion": "CONDITIONAL_WITH_UNITS_AND_BASELINE"
+    },
+    {
+      "term": "entropy",
+      "senses": [
+        "thermodynamic S in J/K",
+        "Shannon H in bits",
+        "symbolic/social cost metaphor",
+        "quantum von Neumann entropy"
+      ],
+      "source": "SRC-117",
+      "locator": "text/SRC-117/part-001.md#L76-L85",
+      "support": "AUTHOR_CONCEPTUAL_USAGE_NOT_PHYSICAL_ENTROPY_CALIBRATION",
+      "risk": "Must never silently replace bits or social burden with thermal joule/kelvin.",
+      "automatic_conversion": "BLOCK"
+    },
+    {
+      "term": "dimension",
+      "senses": [
+        "spacetime coordinate",
+        "physical quantity dimension",
+        "state-space degrees of freedom",
+        "recursion/description depth"
+      ],
+      "source": "SRC-136",
+      "locator": "text/SRC-136/part-001.md#L57-L66",
+      "support": "MULTIPLE_SENSES_PROPOSED; NO_UNIVERSAL_EQUIVALENCE",
+      "risk": "Physical independent dimensions not proved by hierarchical levels.",
+      "automatic_conversion": "BLOCK"
+    },
+    {
+      "term": "collapse",
+      "senses": [
+        "author stabilized structure",
+        "quantum measurement collapse",
+        "phase transition",
+        "lossy dimensional reduction"
+      ],
+      "source": "SRC-136",
+      "locator": "text/SRC-136/part-001.md#L15-L21",
+      "support": "AUTHOR_WORDING_ONLY_FOR_PROJECTED_STRUCTURE",
+      "risk": "Cannot treat distinct physical phenomena as one operator by name.",
+      "automatic_conversion": "BLOCK"
+    },
+    {
+      "term": "three_gates",
+      "senses": [
+        "author bandwidth/orientation/phase windows",
+        "software source/permission/compatibility checks",
+        "measured independent physical channels"
+      ],
+      "source": "SRC-137",
+      "locator": "text/SRC-137/part-001.md#L44-L67",
+      "support": "ORIGINAL_POLICY_FORMULA; NO_UNIVERSAL_GATE_PHYSICS",
+      "risk": "Gates can constrain allowed attempts, but evidence of change in microscopic physical dynamics requires causal tests.",
+      "automatic_conversion": "CONDITIONAL_AS_SOFTWARE_POLICY_ONLY"
+    },
+    {
+      "term": "propagation_consolidation_beta_residue",
+      "senses": [
+        "author dynamical formation/reuse/stale residue",
+        "domain specific model variables",
+        "external population behavior"
+      ],
+      "source": "SRC-103",
+      "locator": "text/SRC-103/part-001.md#L176-L206",
+      "support": "SOURCE_REPORTED_SYNTHETIC_TWO_PHASE_TEST",
+      "risk": "Do not set universal beta or assume any stored structure is useful: negative tests preserved.",
+      "automatic_conversion": "MODEL_ONLY"
+    },
+    {
+      "term": "structured_empathy",
+      "senses": [
+        "trace environment/origin/constraints/feedback/consequences",
+        "human psychological empathy",
+        "mathematical correspondence"
+      ],
+      "source": "SRC-107",
+      "locator": "text/SRC-107/part-001.md#L38",
+      "support": "AUTHOR_TRANSLATION_GOAL; METHODOLOGICAL_ANALOGY",
+      "risk": "Cross-domain context questions don't establish shared material causation.",
+      "automatic_conversion": "SOFTWARE_PROVENANCE_METHOD_NOT_PHYSICS"
+    },
+    {
+      "term": "AI_ACI",
+      "senses": [
+        "accurate information and access to accurate information",
+        "artificial intelligence acronym"
+      ],
+      "source": "SRC-107",
+      "locator": "text/SRC-107/part-001.md#L38",
+      "support": "AUTHOR_INTENT_RESEARCH_CONTINUITY",
+      "risk": "Never expand author AI as artificial intelligence in P→(AI AND ACI)→S.",
+      "automatic_conversion": "INTENT_ONLY"
+    }
+  ],
+  "mandatory_acceptance": [
+    "Retain exact original phrase/source/version and separate source definition from operational proposed mapping",
+    "Specify observable, quantity kind, unit, time reference and scope for calculation",
+    "Do not map a symbol to a scientific equation without dimensional/conditional derivation",
+    "Do not promote analogy to physical shared mechanism",
+    "Keep v05 review contradictions and failed experiments as data; author reviews competing meanings",
+    "A later revised mathematical model may replace an assistant-derived draft but historical frozen originals are not rewritten"
+  ],
+  "warnings": [
+    "Some locators anchor original *meaning*, not every possible synonym listed; alternative senses derive from relevant domain sources and are not attributed to this original line.",
+    "Full frozen 114-row mapping not available in this new core.",
+    "The 139-source v04 mechanical pass is not semantic line-by-line correctness."
+  ]
+}
