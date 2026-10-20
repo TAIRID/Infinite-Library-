@@ -1,38 +1,39 @@
-# Infinite Library — GitHub-backed Librarian entrypoint (bootstrap v0.1)
+# Infinite Library — public navigation entrypoint
 
-**Status: usable for limited, manual source-grounded navigation through a connected ChatGPT GitHub tool. NOT a finished knowledge base, automated Librarian, independent scientific validator, or general deployed query service.**
+**Current status (20 October 2026): early tested private-core prototype, not a complete or general autonomous knowledge engine.**
 
-## Start here
-Read [`core/library-index.json`](core/library-index.json) and [`core/author-math-intent-crosswalk.json`](core/author-math-intent-crosswalk.json). They record exactly where the existing working source graph, experiments, original author texts, 24 reference entries, 15 future source providers, 139 historical author source records and known failures can be found in the **existing** public `TAIRID/Reverse-Engineering-Unknown` repository. The new repository owns only the *navigation/read-only index*, not replacements of the scientific corpus or the original frozen equations.
+The user's original TAIRID corpus, precise unpublished terminology reviews, source manifests, experiment history, mathematical support matrix, and actual source-grounded query code reside in the **private** `TAIRID/Reverse-Engineering-Unknown` repository. This public repository is an entrypoint, **not** a mirror of those materials. It grants no public access to the private originals.
 
-### What can already be done in a connected ChatGPT session
-A user can say: **"Use the Infinite Library GitHub index; begin at the Dayton Air Force Museum, go into the B-2 structural-test airframe, then explain how the Spirit of Ohio panel connects to Eglin and what the source actually proves."** The Librarian can open the linked source graph and original museum reference, give contextual paths, clarify that two separate aircraft are involved, and return the source. A connected ChatGPT can also follow original author source IDs, inspect selected lines, and distinguish proposed mathematical ideas from demonstrated library code.
+## How to use this with ChatGPT
 
-The interface is still **manual retrieval by the assistant**: this repository is currently not a networked search API or a permanently loaded model context. It cannot force every fresh conversation to discover and read all links unless the user directs the assistant to this root. GitHub-connected ChatGPT can fetch/review/update permitted files; GitHub CI can execute specific committed tests; neither proves unlimited automatic code execution or self-updating intelligence.
+With GitHub connected and access to the private research repository, ask ChatGPT:
 
-### Exact boundaries
-- Original source manuscripts and math authority stay in `TAIRID/Reverse-Engineering-Unknown`; **do not replace frozen ledger or science with an AI synopsis**.
-- Private *Space Robot Five* timelines and personal source evidence stay in private `TAIRID/Space-Robot-Five`; none is mirrored here.
-- Existing scientific reference set is 24 **provisional** source-anchored entries; original author corpus includes 139 source records, **not 139 validated scientific laws**.
-- Historical pilot graph is 13 public museum nodes + 15 evidence-typed edges; 24 scientific catalog nodes were added to the navigation engine (mostly isolated).
-- Preserve experiments that failed, and block concept analogies from becoming physically validated equations without measurable mappings and held-out tests.
-- Gemini is reserved for occasional independent math/programming audits, not general history or manuscript review.
-- The only test evidence so far is the source-typed [context navigation CI run](https://github.com/TAIRID/Reverse-Engineering-Unknown/actions/runs/39432358248), 14 tests passed, **not** a speed test or whole-corpus review.
+> Open `TAIRID/Reverse-Engineering-Unknown/core/library-index.json` as my Infinite Library root. Follow the relevant source ID into the exact original document, report the original meaning and evidence status, and keep experimental limitations and failures visible.
 
-## Examples of question commands to use in ChatGPT
-- "Open the Infinite Library root, show the current core contents and their evidence statuses."
-- "From the Air Force Museum node, follow the component-provenance link to Florida and return the full source trail."
-- "Compare the original author meanings of recursion depth across SRC-136 and SRC-137; do not turn the equation into executable numerical powers without a source-level reconciliation."
-- "Find whether the Library can evaluate overload with a physically or cognitively validated law; distinguish enzyme kinetics from a work-backlog model."
-- "Show the failed heldout stage-boundary pilot and what specifically remained unidentified."
+You can also request a narrowly supported original-source query, for example:
 
-## What must happen next
-1. Reconcile source-level mathematical definitions and author-version conflicts, with exact locators in **all** original manuscript parts before claiming a complete author mathematical core; then locate and verify all frozen 114 equation rows.
-2. Implement source-provenance preserving typed components, relational compatibility, reversible composition, and time/location/experimental validity in one query engine—not solely the small museum graph.
-3. Import and screen a much wider educational, history, art and science corpus as **individual licensed, cited items**, rather than treating 15 provider links as ingested books.
-4. Add persisted, invalidatable knowledge assemblies, simple natural-language-to-typed-query routing, failure/abstention and source mutation guards.
-5. Test against ordinary keyword/document retrieval and strong source/accuracy baselines, report time/steps, errors, cost and false transferred analogies.
-6. Demonstrate one genuine end-to-end ChatGPT → GitHub core → source → answer → reversible navigation and correct updates across sessions. The limited manual example above demonstrates *some* of that path but not the integrated backend.
-7. Only then expand neurotype-inspired optional processing strategies based on actual user-selected preferences and task results, without implying proof of neuropsychological generality.
+> In the Infinite Library, compare what the original TAIRID documents actually say about `O = Tᵃ · Iᵇ` and explain why the numeric interpretation is not yet settled.
 
-**Truthfulness rule:** Nothing in the core gains scientific authority from being in this repository. The Library's organizational machinery is a hypothesis to test; sources and exact versioned experiment results control the factual content.
+The working private engine is `core/library_query_v01.py`, and its original-source proofs are in `core/grounded-question-cases-v01.json`. The **GitHub Actions test in the private research repository** passed: https://github.com/TAIRID/Reverse-Engineering-Unknown/actions/runs/39439138375 (requires private repo access).
+
+## Measured scope
+
+- 139 original source pointers and 288 extracted text parts remain in the **private** archive; the mechanical scan did not constitute a full semantic review.
+- Terminology v0.5: of 28 preliminary assigned senses, 10 have direct wording support, 7 partial support, and 11 have insufficient original source support. Zero cross-sense translations were approved.
+- A new private source-review table documents 12 high-priority term families, without changing the historical 114-equation baseline.
+- A new private math matrix classifies 20 proposed/native method links by their evidence and blocks unsupported transfers.
+- A private original-source query prototype supports **six curated question cases**, eight regression tests and demonstrated abstention when evidence is missing or altered.
+- The museum/structural-context navigation prototype has 14 passing unit tests but no measured advantage over standard document search.
+- Most of established science, cultural history, school curricula and the broader original research corpus have **not** been integrated as verified, executable knowledge items.
+
+## Required boundaries
+
+- **Private source content is not available to unauthenticated public GitHub Actions**. A GitHub Action in this public repository cannot read a separate private repository using the standard default runner token. Do not insert a personal GitHub token into public workflow code.
+- The core is source-linked and revisable; it is not a proof of TAIRID's proposed universal physical claims.
+- Natural-language understanding of arbitrary questions, cross-field equation translation, automatic source acquisition and reliable ranking remain incomplete.
+- Gemini remains reserved for occasional independent checks of mathematics/programming, not general document interpretation.
+- Personal timeline data remain in the user's separate private repository.
+
+**Important publication/history note:** An earlier build mistakenly treated the REU research repository as public and briefly committed detailed private archive *filenames, checksums, and interpretation metadata* into this public repository's history. Those files have been withdrawn from the current branch and retained in the private research repository. **Deleting files from the current branch does not erase them from earlier Git history**. Review the public repository visibility and history before treating its past commits as private. Full original manuscript text and private timeline files were not bulk copied in that entrypoint.
+
+For a complete private-first Library, it is safer to keep source files and executable source-backed retrieval inside the authorized private repository and expose only limited, intentionally public interfaces.
