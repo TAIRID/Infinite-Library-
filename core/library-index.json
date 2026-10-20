@@ -1,0 +1,190 @@
+{
+  "schema": "TAIRID.IL.CONNECTED_CORE_INDEX.v0.1",
+  "date": "2026-10-20",
+  "state": "GITHUB_CONNECTED_MANUAL_QUERY_STARTER_AND_ARCHIVE_POINTERS_NOT_COMPLETE_SEMANTIC_RUNTIME",
+  "repo": "TAIRID/Infinite-Library-",
+  "original_research_authority": "TAIRID/Reverse-Engineering-Unknown",
+  "origin_research_commit": "e535ab3dddeb98460a7aff5f5d70ce7ae5c5b093",
+  "core_paths": {
+    "root": "README.md",
+    "source_registry": "core/source-registry.json",
+    "math_intent": "core/author-math-intent-crosswalk.json",
+    "past_week": "core/last-week-correction-audit.json",
+    "acceptance_gates": "core/readiness-gates.json"
+  },
+  "source_registry": {
+    "count": 139,
+    "source_text_parts": 288,
+    "claim": "source paths and old recorded hashes available, not scientific truth promotion"
+  },
+  "science": {
+    "reference_catalog_count": 24,
+    "provider_candidates_count": 15,
+    "physical_claim_gate_count": 7,
+    "ta_irid_canonical_equation_count_ledger_historical": 114,
+    "canonical_row_mapping": "NOT_FULLY_RECONCILED_IN_THIS_INDEX",
+    "g025_original_open_gates": "ALL_SIX_OPEN",
+    "source_sensitive_reuse": "Original research failures remain active"
+  },
+  "processing": {
+    "interface_role": "Adapt output and retrieval breadth/depth/pacing; original source truth and limitations unchanged",
+    "nonvisual_navigation": "No image is required, infinite zoom is a mental model for navigating context"
+  },
+  "capabilities": {
+    "can_fetch_source_files_by_connected_assistant": true,
+    "can_trace_user_named_existing_link_in_text": true,
+    "can_read_original_research_versions_if_provided_ids": true,
+    "can_run_existing_GitHub_Actions_automatically_on_writes_subject_to_repo_permissions": true,
+    "automatically_load_every_source_into_model_context": false,
+    "answer_every_arbitrary_domain_query_from_this_root_without_tools": false,
+    "execute_uncommitted_python_in_GitHub_connector": false,
+    "autonomously_find_every_true_scientific_mechanism": false,
+    "always_available_between_conversations_without_reopening_index": false
+  },
+  "existing_work_tracks": [
+    {
+      "id": "IL01",
+      "label": "Original 20-node Library index and three views",
+      "source": "research/library_pilot/v01/catalog.json",
+      "explanation": "Indexed 20 source-linked records and 21 typed relations, offline HTML available; limited corpus only",
+      "status": "EXECUTED_LIMITED",
+      "test": "https://github.com/TAIRID/Reverse-Engineering-Unknown/actions/runs/39244050247"
+    },
+    {
+      "id": "IL02",
+      "label": "Universe gap question decomposition and search cycle",
+      "source": "research/library_pilot/v02/README.md",
+      "explanation": "23 universe map edges scanned and 24 proposed next investigations; zero original physical gaps proven closed",
+      "status": "EXECUTED_LIMITED",
+      "test": "https://github.com/TAIRID/Reverse-Engineering-Unknown/actions/runs/39247662038"
+    },
+    {
+      "id": "IL03",
+      "label": "Five private DOCX original-source search",
+      "source": "research/library_pilot/v03/README.md",
+      "explanation": "Privacy-preserving 12 known-text smoke probes, 18 UNVERIFIED structural similarities; private extracts not part of GitHub",
+      "status": "EXECUTED_LOCALLY_PRIVATE_INPUTS_NOT_IN_GITHUB",
+      "test": "https://github.com/TAIRID/Reverse-Engineering-Unknown/actions/runs/39250506686"
+    },
+    {
+      "id": "IL04",
+      "label": "Whole 139-source mechanical term-definition inventory",
+      "source": "research/library_pilot/v04/historical_139_definition_candidates.json",
+      "explanation": "72,689 blocks scanned, 3,570 candidate definition blocks; NOT complete semantic line-by-line scientific verification",
+      "status": "EXECUTED_MECHANICAL_ONLY",
+      "test": "https://github.com/TAIRID/Reverse-Engineering-Unknown/actions/runs/39252249084"
+    },
+    {
+      "id": "IL05",
+      "label": "Original-definition incompatible sense guard",
+      "source": "research/library_pilot/v05/README.md",
+      "explanation": "28 private proposed meanings reviewed: 10 directly anchored, 7 context/partial, 11 unsupported; 0 approved semantic merges",
+      "status": "EXECUTED_GUARD_AUTHOR_SEMANTIC_REVIEW_OPEN",
+      "test": "https://github.com/TAIRID/Reverse-Engineering-Unknown/actions/runs/39254769539"
+    },
+    {
+      "id": "IL12",
+      "label": "Evidence/contradiction/update design",
+      "source": "research/library_pilot/v12/evidence_processing_definitions.json",
+      "explanation": "25 proposed evidence-processing terms; separates immutable source from revisable interpretation and working core",
+      "status": "SOURCE_GROUNDED_DESIGN",
+      "test": null
+    },
+    {
+      "id": "IL16",
+      "label": "Native operational math",
+      "source": "research/library_pilot/v16/math_readiness.json",
+      "explanation": "12 domain-typed constructs defined; seven stronger physical claims blocked; synthetic mathematical controller",
+      "status": "EXECUTED_SPECIFIED_SYNTHETIC",
+      "test": null
+    },
+    {
+      "id": "IL38",
+      "label": "Original source stage-boundary negative test",
+      "source": "research/library_pilot/v38/README.md",
+      "explanation": "Strict heldout stage-boundary identification failed 2 of 3 validation recordings; cannot claim physical timestamp closure",
+      "status": "EXECUTED_SOURCE_TEST_NOT_SUPPORTED",
+      "test": null
+    },
+    {
+      "id": "ILNAV",
+      "label": "Text-first semantic zoom and typed assemblies",
+      "source": "research/library_pilot/context_navigation_v01/seed_graph.json",
+      "explanation": "13 museum nodes + 15 edges; 24 REF records are loaded as nodes (mostly unconnected); source and identity guard tests pass",
+      "status": "EXECUTED_LIMITED",
+      "test": "https://github.com/TAIRID/Reverse-Engineering-Unknown/actions/runs/39432358248"
+    },
+    {
+      "id": "ILMATH",
+      "label": "Provisional 24-source math/science catalog",
+      "source": "reference_library/v0.1/reference_catalog.json",
+      "explanation": "24 unique entries have URLs, native formula, assumptions, limits; all remain item-review-pending starter sources",
+      "status": "SOURCE_ANCHORED_STARTER",
+      "test": null
+    },
+    {
+      "id": "ILPROV",
+      "label": "Educational source-provider candidate list",
+      "source": "research/continuity/TAIRID-INFINITE-LIBRARY-EDUCATIONAL-SOURCE-FEDERATION-SEED-2026-10-20.json",
+      "explanation": "15 candidates only; no textbooks or courses individually screened or locally ingested by seed",
+      "status": "NOT_ITEM_SCREENED",
+      "test": null
+    },
+    {
+      "id": "ILNEG",
+      "label": "Bayesian baseline, capability composition negative/limiting evidence",
+      "source": "research/integration/tef-v13-noisy-compositional-capability-discovery-bayes-audit-2026-10-14.md",
+      "explanation": "Source-listed experiment does NOT show superior mean utility over stronger Bayesian baseline; keep as counterexample",
+      "status": "EXECUTED_MIXED_NOT_SUPERIOR",
+      "test": null
+    }
+  ],
+  "sample_queries": [
+    {
+      "id": "dayton",
+      "title": "Museum -> airframe -> provenance -> Eglin",
+      "anchor": "place:nmusaf",
+      "path": "research/library_pilot/context_navigation_v01/seed_graph.json",
+      "syntax": "Start at place:nmusaf. Follow e01, e08, e09, e10. Return 4 typed relationships, their source and the warning that the two aircraft are different.",
+      "execution": "CHATGPT_CAN_FOLLOW_LINKS_MANUALLY; PYTHON_CLI_IN_REU_CI",
+      "expected_answer": "Provenance chain with origin source, not a reconstructed visit"
+    },
+    {
+      "id": "math-terms",
+      "title": "Original TAIRID math semantic identity",
+      "anchor": "SRC-136",
+      "path": "sources/corpus-2026-10-11/text/SRC-136/part-001.md",
+      "syntax": "Compare SRC-136 lines 15-63 (O, T and exponent depth) with SRC-137 and SRC-107, then identify where powers, units and definitions conflict.",
+      "execution": "CHATGPT_READS_EXACT_GITHUB_SOURCE_AND_PRIVATE_USER_APPROVAL_IF_CHANGES",
+      "expected_answer": "Multiple source senses distinguished, no asserted physical-law proof"
+    },
+    {
+      "id": "failed-test",
+      "title": "Recover unsuccessful heldout experiment",
+      "anchor": "IL38",
+      "path": "research/library_pilot/v38/README.md",
+      "syntax": "Explain what v38 measured and why stage boundary remained unidentifiable despite earlier sanity checks.",
+      "execution": "CHATGPT_CAN_READ_SOURCE",
+      "expected_answer": "Explicit 2/3 failed heldout gates, no made-up closure"
+    },
+    {
+      "id": "term-survey",
+      "title": "Find source-definition candidates",
+      "anchor": "IL04",
+      "path": "research/library_pilot/v04/historical_139_definition_candidates.json",
+      "syntax": "Find the original source IDs and paragraphs discussing a specified term, then inspect originals before assigning a single meaning.",
+      "execution": "EXISTING_MACHINE_INDEX_RETRIEVABLE_MANUALLY_IN_GITHUB",
+      "expected_answer": "Candidate passages, with caution that machine tagging isn't semantic verification"
+    }
+  ],
+  "not_allowed": [
+    "Copy unpublished private Space-Robot-Five or uploaded source documents to public core.",
+    "Treat shared words, structural similarity, or model agreement as a validated physical mechanism.",
+    "Assume original TAIRID a,b numeric exponents; use exact source and typed sense guard.",
+    "Replace established mathematics or modify frozen ledger by summary.",
+    "Promote SCIENTIFIC VALIDATION after a unit test of JSON navigation.",
+    "Use Gemini for historical narrative; conserve it for targeted independent math and code reviews.",
+    "Contact researchers by email.",
+    "Claim line-by-line semantic review completed because 72,689 blocks were scanned."
+  ]
+}
